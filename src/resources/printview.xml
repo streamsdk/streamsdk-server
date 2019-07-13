@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+    <context:annotation-config/>
+
+    <bean name="fileCreate" class="com.ugc.view.FileCreateView"/>
+    <bean name="objectJsonView" class="com.ugc.view.ObjectJsonView"/>
+    <bean name="fileMetadataView" class="com.ugc.view.FileMetadataView" />
+    <bean name="objectListView" class="com.ugc.view.ObjectListView"/>
+    <bean name="objectCreate" class="com.ugc.view.ObjectCreateView"/>
+    <bean name="defaultView" class="com.ugc.view.DefaultView"/>
+    <bean name="createSystemUserView" class="com.ugc.view.CreateSystemUserView"/>
+    <bean name="createUserUserView" class="com.ugc.view.CreateUserUserView"/>
+    <bean name="userLoginView" class="com.ugc.view.UserLoginView" />
+    <bean name="systemUserAuthView" class="com.ugc.view.SystemUserAuthView" />
+    <bean name="counterResultView" class="com.ugc.view.CounterResultView" />
+    <bean name="userListView" class="com.ugc.view.UserListView" />
+    <bean name="systemUserLoginView" class="com.ugc.view.SystemUserLoginView"/>
+     <bean name="androidMessages" class="com.ugc.view.AndroidPushMessagesView"/>
+
+</beans>
